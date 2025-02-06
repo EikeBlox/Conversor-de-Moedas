@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Conversor de Moedas</h1>
-        <p>Texto aqui</p>
-        <p id="result"></p>
-        
         <input id="input" type="number" placeholder="Digite o valor">
     
-        <select id="origin">
-            <option value="dolar">Dólar $</option>
-            <option value="real">Real R$</option>
-            <option value="euro">Euro €</option>
-            <option value="libra">Libra £</option>
-        </select>
+        <div class="currency-select">
+            <select id="origin">
+                <option value="dolar">Dólar $</option>
+                <option value="real">Real R$</option>
+                <option value="euro">Euro €</option>
+                <option value="libra">Libra £</option>
+            </select>
     
-        <select id="destiny">
-            <option value="dolar">Dólar $</option>
-            <option value="real">Real R$</option>
-            <option value="euro">Euro €</option>
-            <option value="libra">Libra £</option>
-        </select>
+            <button id="button">=</button>
     
-        <button id="button">Converter</button>
+            <select id="destiny">
+                <option value="dolar">Dólar $</option>
+                <option value="real">Real R$</option>
+                <option value="euro">Euro €</option>
+                <option value="libra">Libra £</option>
+            </select>
+        </div>
     
+        <p id="result"></p>
     </div>
-    <script src="./script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
