@@ -6,7 +6,7 @@ let result = document.getElementById("result");
 
 const rates = {
     dolar: 1,
-    real: 5.8,
+    real: 5.77,
     euro: 0.93,
     libra: 0.75
 };
